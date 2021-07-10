@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Viaoda;
+    src: url(../fonts/webfonts/Viaoda_Libre/ViaodaLibre-Regular.ttf);
+}
+@font-face {
+    font-family: IBM-Thin;
+    src: url(../fonts/webfonts/IBM_Plex_Sans/IBMPlexSans-Thin.ttf);
+}
+@font-face {
+    font-family: IBM-ExtreLight;
+    src: url(../fonts/webfonts/IBM_Plex_Sans/IBMPlexSans-ExtraLight.ttf);
+}
+@font-face {
+    font-family: IBM-Regular;
+    src: url(../fonts/webfonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf);
+}
+@font-face {
+    font-family: IBM-Medium;
+    src: url(../fonts/webfonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf);
+}
