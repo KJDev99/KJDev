@@ -36,6 +36,23 @@ $(document).ready(function () {
         }, 1000)
     });
 
+    $(function () {
+        $(window).scroll(function(){
+            var scroll = $(this).scrollTop();
+            console.log(scroll);
+            if(scroll>600){
+                $('#top').fadeIn();
+            }else{
+                $('#top').fadeOut();
+            }
+        })
+        $('#top').click(function(e){
+           $('html, body').animate({
+               scrollTop: 0
+           }, 1000)
+        })
+    });
+
     // owl carulsel
 
     (function() {
