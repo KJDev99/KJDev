@@ -285,6 +285,10 @@ $(document).ready(function () {
         percent: '.js__line'
     })
     new Protsent({
+        el: '.jqurey__percent',
+        percent: '.jquery__line'
+    })
+    new Protsent({
         el: '.gulp__percent',
         percent: '.gulp__line'
     })

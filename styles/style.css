@@ -48,6 +48,11 @@ main{
     height: 100%;
     animation: star 300s infinite linear;
 }
+
+.btn-dark{
+    opacity: 0.7;
+}
+
 @keyframes star { 
     0% {
         background-position: 0 0;
@@ -445,9 +450,15 @@ main{
     align-items: center;
     margin-left: 20px;
 }
+.skill__name img{
+    height: 40px;
+    width: 40px;
+    margin-left: -5px;
+}
 .skill__icons{
     font-size: 28px;
     color: #8F3321;
+    width: 30px;
 }
 .fa-css3{
     color: #3997F8;
