@@ -38,9 +38,7 @@ main{
 
 .stars{
     background: black url('../images/stars.png') top center;
-
     height: 100vh;
-    
 }
 .twin{
     background: url('../images/dr.png') top center;
