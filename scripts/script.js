@@ -222,7 +222,7 @@ $(document).ready(function () {
 
     top.reveal('.sec__title',{}); 
     top.reveal('.sec__bottom',{}); 
-    top.reveal('.skill',{delay: 100})
+    // top.reveal('.skill',{delay: 100})
     top.reveal('.work__items',{delay: 200}); 
     
 
@@ -260,7 +260,7 @@ $(document).ready(function () {
         time(){
             setInterval(() => {
                 this.testing()
-            }, 100); 
+            }, 15); 
         }
        
     }
